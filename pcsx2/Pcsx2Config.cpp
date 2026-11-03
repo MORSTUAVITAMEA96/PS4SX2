@@ -393,6 +393,7 @@ Pcsx2Config::SpeedhackOptions::SpeedhackOptions()
 	IntcStat = true;
 	vuFlagHack = true;
 	vu1Instant = true;
+	vuThread = true;
 }
 
 Pcsx2Config::SpeedhackOptions& Pcsx2Config::SpeedhackOptions::DisableAll()
